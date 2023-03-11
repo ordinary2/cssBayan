@@ -1,16 +1,41 @@
 .container{
   max-width: 1140px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .main-title{
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 40px 0 15px;
 }
 
 .quote{
   border-top: 1px solid rgb(172, 168, 168);
+  cursor: pointer;
 }
 
+.quote-title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.quote-img{
+  display: block;
+  margin: 0 auto;
+}
+
+.block-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-img{
+  height: 24px;
+  width: 24px;
+  background-image: url(../assets/xmark-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
