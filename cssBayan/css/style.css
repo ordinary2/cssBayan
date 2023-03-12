@@ -12,30 +12,60 @@
 
 .quote{
   border-top: 1px solid rgb(172, 168, 168);
+  display: block;
+  padding: 20px 0 15px 0;
   cursor: pointer;
+}
+
+.second-quote:hover .second-img{
+  display: block;
+  transition: all ease-in .5s;
+}
+
+.third-quote:hover .third-img{
+  display: block;
+  transition: all ease-in .5s;
+}
+
+.fourth-quote:hover .fourth-img{
+  display: block;
+  transition: all ease-in .5s;
+}
+
+.quote:hover {
+  background-image: url(../assets/xmark-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 98% 20px;
+  background-size: 15px;
+  
+}
+
+.quote:active{
+  background-image: url(../assets/plus-solid.svg);
+  background-position: 98.3% 20px;
+  background-size: 20px;
+  transition: all ease .2s;
 }
 
 .quote-title{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  margin: 0 0 20px 0;
   font-weight: 900;
 }
 
 .quote-img{
-  display: block;
+  display: none;
   margin: 0 auto;
+  transition: all ease-in .5s;
+}
+
+.first-quote img {
+  display: block;
 }
 
 .block-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.toggle-img{
-  height: 24px;
-  width: 24px;
-  background-image: url(../assets/xmark-solid.svg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
