@@ -13,8 +13,15 @@
 .quote{
   border-top: 1px solid rgb(172, 168, 168);
   display: block;
-  padding: 20px 0 15px 0;
+  
   cursor: pointer;
+}
+
+.first-quote,
+.second-quote,
+.third-quote,
+.fourth-quote {
+  padding: 20px 0 15px 0;
 }
 
 .second-quote:hover .second-img{
@@ -68,4 +75,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.fourth-quote{
+  
+}
+
+.fourth-quote:visited .fourth-img{
+  display: block;
 }
